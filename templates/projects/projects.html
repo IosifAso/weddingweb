@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="hover-4">
+                        <a class="nav-link text-white" href="{% url 'homepage' %}">Home</a>
+                    </li>
+                    <li class="hover-4">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="hover-4">
+                        <a class="nav-link text-white" href="{% url 'projects' %}">Projects</a>
+                    </li>
+                    <li class="hover-4">
+                        <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="hover-4">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section">
+        <h1>
+            <span>What</span>
+            <span>I</span>
+            <span>like</span>
+            <span>about</span>
+            <span>photographs</span>
+            <span>is</span>
+            <span>that</span>
+            <span>they</span>
+            <span>capture</span>
+            <span>a</span>
+            <span>moment</span>
+            <span>...</span>
+            <span>that's</span>
+            <span>gone.</span>
+        </h1>
+        <div class="spacer"></div>
+    </div>
+
+    {#        <h1 style="text-align: center">What I like about photographs is that they capture a moment that’s gone#}
+    {#            forever.</h1>#}
+    {#        <p class="text-center">#}
+    {#            - Karl Lagerfeld -#}
+    {#        </p>#}
+    <div class="section bg1">
+        <div class="spacer"></div>
+    </div>
+
+    <div class="section bg2">
+        <h1>
+            <span>There</span>
+            <span>are</span>
+            <span>no</span>
+            <span>limits</span>
+            <span>to</span>
+            <span>what</span>
+            <span>you</span>
+            <span>can</span>
+            <span>accomplish,</span>
+            <span>except</span>
+            <span>the</span>
+            <span>limits</span>
+            <span>you</span>
+            <span>place</span>
+            <span>on</span>
+            <span>your</span>
+            <span>own</span>
+            <span>thinking.</span>
+        </h1>
+    </div>
+
+    {#    <div class="position-absolute top-50 end-0 translate-middle">#}
+    {#        <div class="card mb-3" style="max-width: 440px;">#}
+    {#            <div class="row no-gutters">#}
+    {#                <div class="col-md-4">#}
+    {#                    <img src="../../static/images/abba.png" width="154" height="200" class="card-img"#}
+    {#                         alt="...">#}
+    {#                </div>#}
+    {#                <div class="col-md-8">#}
+    {#                    <div class="card-body">#}
+    {#                        <h5 class="card-title">Daniel Ababei</h5>#}
+    {#                        <h6 class="card-subtitle mb-2 text-muted">CEO - Capture The Moment Photography </h6>#}
+    {#                        <p class="card-text">A young passionate person whose goal is to tell a story through each#}
+    {#                            photo.</p>#}
+    {#                        <link rel="stylesheet"#}
+    {#                              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">#}
+    {#                        <a href="#"><i class="fa fa-dribbble"></i></a>#}
+    {#                        <a href="https://twitter.com/danniel_ro"><i class="fa fa-twitter"></i></a>#}
+    {#                        <a href="https://www.linkedin.com/in/daniel-ababei-785b8b2a/"><i class="fa fa-linkedin"></i></a>#}
+    {#                        <a href="https://www.facebook.com/abba.danniel"><i class="fa fa-facebook"></i></a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#            </div>#}
+    {#        </div>#}
+    {#        <br><br><br><br><br><br><br><br>#}
+    {#    </div>#}
+    </div>
+{% endblock %}
